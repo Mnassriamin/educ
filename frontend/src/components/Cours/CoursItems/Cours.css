@@ -1,0 +1,71 @@
+/* Fix layout issue */
+.cours-container {
+  padding: 20px;
+  margin-left: 250px; /* Adjusted to match sidebar width */
+  margin-top: 80px; /* Adjusted for navbar height */
+  max-width: calc(100% - 250px);
+}
+
+/* Title */
+.cours-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Course list */
+.cours-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual Course Item */
+.cours-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: #f8f9fa;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Enroll Button */
+.enroll-btn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Edit and Delete Buttons */
+.edit-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Enrolled Students Section */
+.student-list {
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
